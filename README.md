@@ -18,7 +18,7 @@ Asegúrate de que la base de datos **Northwind** esté importada en tu servidor 
 Ejecuta la siguiente consulta SQL en tu base de datos para crear un nuevo usuario:
 
 ```sql
-INSERT INTO usuarios (username, password) VALUES ('Usuario', MD5('Contraseña'));
+INSERT INTO usuarios (usuario, contra) VALUES ('Usuario', MD5('Contraseña'));
 ```
 ### Importante
 Ir al documento php.ini en **XAMPP/Apache/php.ini** (darle click a config de Apache e ir a  php.ini)
